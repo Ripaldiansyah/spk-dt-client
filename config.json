@@ -1,0 +1,31 @@
+{
+    "modules": [
+        "login",
+        "register",
+        "dashboard",
+        "products/create_product",
+        "products/update_product",
+        "products/list_product",
+        "users/list_users",
+        "users/edit_user",
+        "products/detail_product",
+        "train/add_train",
+        "train/edit_train",
+        "train/list_train",
+        "predict",
+        "recomendation",
+        "settings",
+        "menu_navigation",
+        "admin_menu",
+        "splash"
+    ],
+    "module_directory_name": "module",
+    "experimental_mode": false,
+    "learning_mode": false,
+    "unfreezed": true,
+    "use_cubit": false,
+    "ignore_core_generator_for_directories": [
+        "lib/model",
+        "lib/models"
+    ]
+}
